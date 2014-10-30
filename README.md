@@ -13,9 +13,11 @@ Next we're going to install two plugins for Vagrant.
 
 * vagrant-vbguest - automatically installs the host's VirtualBox Guest Additions on the guest system.
 * vagrant-librarian-chef - let's us automatically run chef when we fire up our machine.
+* vagrant-omnibus - a Vagrant plugin that ensures the desired version of Chef is installed via the platform-specific Omnibus packages.
 
 	vagrant plugin install vagrant-vbguest
 	vagrant plugin install vagrant-librarian-chef
+	vagrant plugin install vagrant-omnibus
 
 ## Using Rails inside Vagrant
 After getting Vagrant setup on your local box you can now start using Vagrant to do development on this rails application.
