@@ -17,7 +17,6 @@ public/uploads/
 .rbenv-version
 .directory
 nohup.out
-Vagrantfile
 .vagrant
 .idea
 .DS_Store
