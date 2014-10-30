@@ -68,3 +68,9 @@ You might be asking..."how/why localhost, I thought this application was running
 
 ### Development
 Now that everything is setup and running you can modify files for this sample application on your local box and changes will automatically be picked up by the VM because the files on your local box are sync'ed to the */vagrant* directory on the VM.
+
+## Other Vagrant Commands
+
+* vagrant destroy - this will destroy your provisioned VM, next time you run *vagrant up* it will take the empty VM image and re-provision.
+* vagrant halt - this will stop the running VM.
+* vagrant box list - this will show all of the empty VM images that are available on your local box.
