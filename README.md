@@ -64,7 +64,9 @@ You will notice that this application is now running on localhost:3000, point yo
 
 If all went well you should see a HTML page showing a H2 title of "Customer List".
 
-You might be asking..."how/why localhost, I thought this application was running on the VM"?  Correct, but the cool thing about Vagrant is that given the Vagrant file that is at the rool of this project which describes the environment needed by this sample application it also sets up port forwarding on your local box to the VM...which is done by this line in the Vagrantfile;
+You might be asking...__"how/why localhost"__, I thought this application was running on the VM"?  
+
+Correct, but the cool thing about Vagrant is that given the Vagrant file that is at the rool of this project which describes the environment needed by this sample application it also sets up port forwarding on your local box to the VM...which is done by this line in the Vagrantfile;
 
 	config.vm.network :forwarded_port, guest: 3000, host: 3000
 
