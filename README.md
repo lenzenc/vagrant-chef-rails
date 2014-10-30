@@ -15,6 +15,8 @@ Next we're going to install two plugins for Vagrant.
 * vagrant-librarian-chef - let's us automatically run chef when we fire up our machine.
 * vagrant-omnibus - a Vagrant plugin that ensures the desired version of Chef is installed via the platform-specific Omnibus packages.
 
+Install Commands;
+
 	vagrant plugin install vagrant-vbguest
 	vagrant plugin install vagrant-librarian-chef
 	vagrant plugin install vagrant-omnibus
