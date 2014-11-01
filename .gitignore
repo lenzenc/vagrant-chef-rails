@@ -18,6 +18,7 @@ public/uploads/
 .directory
 nohup.out
 .vagrant
+/cookbooks
 .idea
 .DS_Store
 .chef
